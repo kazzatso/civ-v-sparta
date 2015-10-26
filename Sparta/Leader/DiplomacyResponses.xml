@@ -1,0 +1,124 @@
+<GameData>
+	<Diplomacy_Responses>
+		<Row LeaderType="LEADER_LEONIDAS">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_LEONIDAS_FIRSTGREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_LEONIDAS">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_LEONIDAS_FIRSTGREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_LEONIDAS">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_LEONIDAS_DEFEATED%</Response>
+		</Row>
+		<Row LeaderType="LEADER_LEONIDAS">
+			<ResponseType>RESPONSE_GREETING_POLITE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_LEONIDAS_POLITE_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_LEONIDAS">
+			<ResponseType>RESPONSE_GREETING_NEUTRAL_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_LEONIDAS_NEUTRAL_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_LEONIDAS">
+			<ResponseType>RESPONSE_GREETING_HOSTILE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_LEONIDAS_HOSTILE_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_LEONIDAS">
+			<ResponseType>RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_LEONIDAS_HOSTILE_AGGRESSIVE_MILITARY_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_LEONIDAS">
+			<ResponseType>RESPONSE_EXPANSION_SERIOUS_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_LEONIDAS_EXPANSION_SERIOUS_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_LEONIDAS">
+			<ResponseType>RESPONSE_REQUEST</ResponseType>
+			<Response>TXT_KEY_LEADER_LEONIDAS_RESPONSE_REQUEST%</Response>
+		</Row>
+		<Row LeaderType="LEADER_LEONIDAS">
+			<ResponseType>RESPONSE_LUXURY_TRADE</ResponseType>
+			<Response>TXT_KEY_LEADER_LEONIDAS_RESPONSE_LUXURY_TRADE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_LEONIDAS">
+			<ResponseType>RESPONSE_OPEN_BORDERS_EXCHANGE</ResponseType>
+			<Response>TXT_KEY_LEADER_LEONIDAS_OPEN_BORDERS_EXCHANGE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_LEONIDAS">
+			<ResponseType>RESPONSE_ATTACKED_BETRAYED</ResponseType>
+			<Response>TXT_KEY_LEADER_LEONIDAS_ATTACKED_BETRAYED</Response>
+		</Row>
+		<Row LeaderType="LEADER_LEONIDAS">
+			<ResponseType>RESPONSE_ATTACKED_EXCITED</ResponseType>
+			<Response>TXT_KEY_LEADER_LEONIDAS_ATTACKED_EXCITED</Response>
+		</Row>
+		<Row LeaderType="LEADER_LEONIDAS">
+			<ResponseType>RESPONSE_ATTACKED_HOSTILE</ResponseType>
+			<Response>TXT_KEY_LEADER_LEONIDAS_ATTACKED_HOSTILE</Response>
+		</Row>
+	</Diplomacy_Responses>
+	<Language_en_US>
+		<!--General phrases -->
+		<!--Greeting (first time meeting) -->
+		<Row Tag="TXT_KEY_LEADER_LEONIDAS_FIRSTGREETING_1">
+			<Text>We are Spartans! If you do not bring an alliance, then you bring war.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LEONIDAS_FIRSTGREETING_2">
+			<Text>This Is Sparta!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LEONIDAS_DEFEATED_1">
+			<Text>You have bested the Spartans, you truly are strong. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LEONIDAS_POLITE_HELLO_1">
+			<Text>Choose your words wisely, Friend, lest i revoke that title from you.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LEONIDAS_POLITE_HELLO_2">
+			<Text>Welcome to Sparta!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LEONIDAS_POLITE_HELLO_3">
+			<Text>Yes?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LEONIDAS_NEUTRAL_HELLO_1">
+			<Text>You are in the presence of a King.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LEONIDAS_NEUTRAL_HELLO_2">
+			<Text>Yes?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LEONIDAS_NEUTRAL_HELLO_3">
+			<Text>Go on?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LEONIDAS_HOSTILE_HELLO_1">
+			<Text>I can't help but notice you standing before me. Why?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LEONIDAS_HOSTILE_HELLO_2">
+			<Text>I suppose you want to say sorry?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LEONIDAS_HOSTILE_HELLO_3">
+			<Text>Welcome to Sparta, have you seen our giant death pit?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LEONIDAS_HOSTILE_AGGRESSIVE_MILITARY_WARNING">
+			<Text>Oh do keep up what you're doing. I'm going to enjoy stabbing you.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LEONIDAS_EXPANSION_SERIOUS_WARNING">
+			<Text>You expand into lands the Spartans deem to be theirs, you will pay for this.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LEONIDAS_REQUEST">
+			<Text>I... uuuh. Need help.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LEONIDAS_LUXURY_TRADE">
+			<Text>Fine by me.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LEONIDAS_OPEN_BORDERS_EXCHANGE">
+			<Text>This will do</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LEONIDAS_ATTACKED_BETRAYED">
+			<Text>I knew not to trust you! Spartans, get your weapons!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LEONIDAS_ATTACKED_EXCITED">
+			<Text>You want our weapons? Come and get them!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LEONIDAS_ATTACKED_HOSTILE">
+			<Text>I saw this coming from a mile away! Spartans, to me!</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

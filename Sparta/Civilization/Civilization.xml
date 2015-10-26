@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Civilizations>
+		<Row>
+			<Type>CIVILIZATION_SPARTA</Type>
+			<Description>TXT_KEY_CIV_SPARTA_DESC</Description>
+			<Civilopedia></Civilopedia>
+			<CivilopediaTag>TXT_KEY_CIV5_SPARTA</CivilopediaTag>
+			<Playable>1</Playable>
+			<AIPlayable>1</AIPlayable>
+			<ShortDescription>TXT_KEY_CIV_SPARTA_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_SPARTA_ADJECTIVE</Adjective>
+			<DefaultPlayerColor>PLAYERCOLOR_SPARTA</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_SPARTA</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_GRECO_ROMAN</ArtStyleType>
+			<ArtStyleSuffix>_MED</ArtStyleSuffix>
+			<ArtStylePrefix>MEDITERRANEAN</ArtStylePrefix>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>SPARTA_ATLAS</IconAtlas>
+			<AlphaIconAtlas>SPARTA_ALPHA</AlphaIconAtlas>
+			<MapImage>SpartaMap.dds</MapImage>
+			<DawnOfManQuote>TXT_KEY_CIV5_DAWN_SPARTA_TEXT</DawnOfManQuote>
+			<DawnOfManImage>SpartaDom.dds</DawnOfManImage>
+		</Row>
+	</Civilizations>
+
+	<!-- Civilization_BuildingClassOverrides -->
+	<Civilization_CityNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_SPARTA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_SPARTA_0</CityName>
+		</Row>
+	</Civilization_CityNames>
+	<!-- Civilization_DisableTechs -->
+	<Civilization_FreeBuildingClasses>
+		<Row>
+			<CivilizationType>CIVILIZATION_SPARTA</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+		</Row>
+	</Civilization_FreeBuildingClasses>
+	<Civilization_FreeTechs>
+		<Row>
+			<CivilizationType>CIVILIZATION_SPARTA</CivilizationType>
+			<TechType>TECH_AGRICULTURE</TechType>
+		</Row>
+	</Civilization_FreeTechs>
+	<Civilization_FreeUnits>
+		<Row>
+			<CivilizationType>CIVILIZATION_SPARTA</CivilizationType>
+			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+			<UnitAIType>UNITAI_SETTLE</UnitAIType>
+			<Count>1</Count>
+		</Row>
+	</Civilization_FreeUnits>
+	<Civilization_Leaders>
+		<Row>
+			<CivilizationType>CIVILIZATION_SPARTA</CivilizationType>
+			<LeaderheadType>LEADER_LEONIDAS</LeaderheadType>
+		</Row>
+	</Civilization_Leaders>
+	<Civilization_Religions>
+		<Row>
+			<CivilizationType>CIVILIZATION_SPARTA</CivilizationType>
+			<ReligionType>RELIGION_ORTHODOXY</ReligionType>
+		</Row>
+	</Civilization_Religions>
+	<Civilization_SpyNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_SPARTA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_SPARTA_0</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SPARTA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_SPARTA_1</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SPARTA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_SPARTA_2</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SPARTA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_SPARTA_3</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SPARTA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_SPARTA_4</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SPARTA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_SPARTA_5</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SPARTA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_SPARTA_6</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SPARTA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_SPARTA_7</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SPARTA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_SPARTA_8</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SPARTA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_SPARTA_9</SpyName>
+		</Row>
+	</Civilization_SpyNames>
+	<Civilization_UnitClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_SPARTA</CivilizationType>
+			<UnitClassType>UNITCLASS_SPEARMAN</UnitClassType>
+			<UnitType>UNIT_SPARTAN_HOPLITE</UnitType>
+		</Row>
+	</Civilization_UnitClassOverrides>
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_SPARTA</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_WALLS</BuildingClassType>
+			<BuildingType>BUILDING_SYSSITIA_HALL</BuildingType>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+	<Civilization_Start_Region_Priority>
+		<Row>
+			<CivilizationType>CIVILIZATION_SPARTA</CivilizationType>
+			<RegionType>REGION_GRASS</RegionType>
+		</Row>
+	</Civilization_Start_Region_Priority>
+	<PlayerColors>
+		<Row>
+			<Type>PLAYERCOLOR_SPARTA</Type>
+			<PrimaryColor>COLOR_PLAYER_SPARTA_ATLAS</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_SPARTA_BACKGROUND</SecondaryColor>
+			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+		</Row>
+	</PlayerColors>
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_SPARTA_ATLAS</Type>
+			<Red>0.349</Red>
+			<Green>0.007</Green>
+			<Blue>0.035</Blue>
+			<Alpha>1.0</Alpha>
+		</Row>
+	</Colors>
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_SPARTA_BACKGROUND</Type>
+			<Red>0.631</Red>
+			<Green>0.533</Green>
+			<Blue>0.254</Blue>
+			<Alpha>1.0</Alpha>
+		</Row>
+	</Colors>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CIV_SPARTA_DESC">
+			<Text>Sparta</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SPARTA_FACTOID_HEADING">
+			<Text>Sparta Factoids</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SPARTA_FACTOID_TEXT">
+			<Text>
+				<!-- Add Civilopedia text here -->
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SPARTA_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SPARTA_HEADING_10">
+			<Text>The Persian Wars</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SPARTA_HEADING_11">
+			<Text>The Peloponnesian War</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SPARTA_HEADING_12">
+			<Text>Philip II and LEONIDAS of Macedonia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SPARTA_HEADING_13">
+			<Text>The Conquest of Persia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SPARTA_HEADING_14">
+			<Text>After LEONIDAS</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SPARTA_HEADING_2">
+			<Text>Terrain</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SPARTA_HEADING_3">
+			<Text>The Mycenaeans</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SPARTA_HEADING_4">
+			<Text>The Archaic Period</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SPARTA_HEADING_5">
+			<Text>Spartan Colonization</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SPARTA_HEADING_6">
+			<Text>The Rise of the Polis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SPARTA_HEADING_7">
+			<Text>The Spartans</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SPARTA_HEADING_8">
+			<Text>The Athenians</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SPARTA_HEADING_9">
+			<Text>Classical Sparta</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SPARTA_TEXT_1">
+			<Text>
+				<!-- Add Civilopedia text here -->
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SPARTA_TEXT_10">
+			<Text>
+				<!-- Add Civilopedia text here -->
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SPARTA_TEXT_11">
+			<Text>
+				<!-- Add Civilopedia text here -->
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SPARTA_TEXT_12">
+			<Text>
+				<!-- Add Civilopedia text here -->
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SPARTA_TEXT_13">
+			<Text>
+				<!-- Add Civilopedia text here -->
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SPARTA_TEXT_14">
+			<Text>
+				<!-- Add Civilopedia text here -->
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SPARTA_TEXT_2">
+			<Text>
+				<!-- Add Civilopedia text here -->
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SPARTA_TEXT_3">
+			<Text>
+				<!-- Add Civilopedia text here -->
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SPARTA_TEXT_4">
+			<Text>
+				<!-- Add Civilopedia text here -->
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SPARTA_TEXT_5">
+			<Text>
+				<!-- Add Civilopedia text here -->
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SPARTA_TEXT_6">
+			<Text>
+				<!-- Add Civilopedia text here -->
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SPARTA_TEXT_7">
+			<Text>
+				<!-- Add Civilopedia text here -->
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SPARTA_TEXT_8">
+			<Text>
+				<!-- Add Civilopedia text here -->
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SPARTA_TEXT_9">
+			<Text>
+				<!-- Add Civilopedia text here -->
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SPARTA_TITLE">
+			<Text>Sparta</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_SPARTA_SHORT_DESC">
+			<Text>Sparta</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_SPARTA_ADJECTIVE">
+			<Text>Spartan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DAWN_SPARTA_TEXT">
+			<Text>Leonidas - Great warrior king of the Greek city-state of Sparta, may the strength of Ares follow you into conquest. You led the Spartan forces during the Second Persian War and are remembered for your death at the Battle of Thermopylae, where 300 Spartans held the line against the massive Persian army - or so the stories are told. The Spartan people are the strongest in all of Greece. Trained from a young age in strict schools, Spartan children are carved into perfect warriors.[NEWLINE][NEWLINE]Leonidas, the strength of your people is unmatched. Will you once more lead your people to become the true rulers of Greece? Can you build a civilization that will stand the test of time?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SPARTA_0">
+			<Text>Sparta</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SPARTA_0">
+			<Text>Themistocles</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SPARTA_1">
+			<Text>Gorgo</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SPARTA_2">
+			<Text>Ellas</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SPARTA_3">
+			<Text>Demaratus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SPARTA_4">
+			<Text>Artemisa</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SPARTA_5">
+			<Text>Megistias</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SPARTA_6">
+			<Text>Mardonius</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SPARTA_7">
+			<Text>Toris</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SPARTA_8">
+			<Text>Samos</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SPARTA_9">
+			<Text>Phylon</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

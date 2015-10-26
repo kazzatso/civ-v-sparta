@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/17/2015 7:59:37 PM -->
+<GameData>
+	<Units>
+		<Row>
+			<Class>UNITCLASS_SPEARMAN</Class>
+			<Type>UNIT_SPARTAN_HOPLITE</Type>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<Combat>13</Combat>
+			<Cost>56</Cost>
+			<FaithCost>112</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>2</Moves>
+			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_COUNTER</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_SPARTAN_HOPLITE</Description>
+			<Civilopedia>TXT_KEY_CIV5_ANTIQUITY_HOPLITE_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_SPARTAN_HOPLITE_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_SPARTAN_HOPLITE_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<ObsoleteTech>TECH_CIVIL_SERVICE</ObsoleteTech>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_PIKEMAN</GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>15</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<Conscription>2</Conscription>
+			<UnitArtInfo>ART_DEF_UNIT_U_GREEK_HOPLITE</UnitArtInfo>
+			<UnitFlagIconOffset>10</UnitFlagIconOffset>
+			<IconAtlas>SPARTA_ATLAS</IconAtlas>
+			<PortraitIndex>1</PortraitIndex>
+		</Row>
+	</Units>
+
+	<UnitGameplay2DScripts>
+		<Row UnitType="UNIT_SPARTAN_HOPLITE">
+			<SelectionSound>AS2D_SELECT_GREEK_HOPLITE</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_GREEK_HOPLITE</FirstSelectionSound>
+		</Row>
+	</UnitGameplay2DScripts>
+
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_SPARTAN_HOPLITE</UnitType>
+			<UnitAIType>UNITAI_COUNTER</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SPARTAN_HOPLITE</UnitType>
+			<UnitAIType>UNITAI_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SPARTAN_HOPLITE</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SPARTAN_HOPLITE</UnitType>
+			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+
+	<Unit_ClassUpgrades>
+		<Row>
+			<UnitType>UNIT_SPARTAN_HOPLITE</UnitType>
+			<UnitClassType>UNITCLASS_PIKEMAN</UnitClassType>
+		</Row>
+	</Unit_ClassUpgrades>
+
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_SPARTAN_HOPLITE</UnitType>
+			<PromotionType>PROMOTION_ANTI_MOUNTED_II</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_MOLON_LABE</Type>
+			<Description>TXT_KEY_PROMOTION_MOLON_LABE</Description>
+			<Help>TXT_KEY_PROMOTION_MOLON_LABE_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<DefenseMod>20</DefenseMod>
+			<PortraitIndex>59</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_MOLON_LABE</PediaEntry>
+		</Row>
+		<Row>
+			<Type>PROMOTION_ADD_A_STEP_FORWARD</Type>
+			<Description>TXT_KEY_PROMOTION_ADD_A_STEP_FORWARD</Description>
+			<Help>TXT_KEY_PROMOTION_ADD_A_STEP_FORWARD_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<AttackMod>20</AttackMod>
+			<PortraitIndex>59</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_ADD_A_STEP_FORWARD</PediaEntry>
+		</Row>
+	</UnitPromotions>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_SPARTAN_HOPLITE">
+			<Text>Hoplite</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SPARTAN_HOPLITE_HELP">
+			<Text>Ancient Era Unit which specializes in defeating Mounted Units. Unlike the Greek Hoplite, the Spartan Hoplite gains unique promotions when attacking with allies or when defending alone. This Unit has a higher [ICON_STRENGTH] Combat Strength than the Spearman which it replaces.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SPARTAN_HOPLITE_STRATEGY">
+			<Text>The Hoplite is the Spartan unique unit, replacing the Spearmna. It is far more powerful than the Spearman, and gains unique promotions when attacking with allies or when defending alone. The Hoplite is deadly against mounted opponents.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MOLON_LABE">
+			<Text>Molon Labe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MOLON_LABE_HELP">
+			<Text>+20% Defense when no friendly adjacent military units</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ADD_A_STEP_FORWARD">
+			<Text>Add a Step Forward</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ADD_A_STEP_FORWARD_HELP">
+			<Text>+20% Attack when adjacent to friendly military unit</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

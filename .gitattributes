@@ -1,0 +1,8 @@
+* text=auto
+
+*.dds binary
+*.mp3 binary
+
+*.civ5sln text eol=crlf
+*.civ5sln merge=union
+*.civ5proj merge=union

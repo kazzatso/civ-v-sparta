@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# ModBuddy Solution File, Format Version 11.00
+Project("{F5FC21B5-7CC2-458A-ABBA-992F515BBA20}") = "Sparta", "Sparta\Sparta.civ5proj", "{D92D0E9F-E8A7-49EF-8F87-8265E7C646DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|x86 = Default|x86
+		Deploy Only|x86 = Deploy Only|x86
+		Package Only|x86 = Package Only|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D92D0E9F-E8A7-49EF-8F87-8265E7C646DD}.Default|x86.ActiveCfg = Default|x86
+		{D92D0E9F-E8A7-49EF-8F87-8265E7C646DD}.Default|x86.Build.0 = Default|x86
+		{D92D0E9F-E8A7-49EF-8F87-8265E7C646DD}.Deploy Only|x86.ActiveCfg = Deploy Only|x86
+		{D92D0E9F-E8A7-49EF-8F87-8265E7C646DD}.Deploy Only|x86.Build.0 = Deploy Only|x86
+		{D92D0E9F-E8A7-49EF-8F87-8265E7C646DD}.Package Only|x86.ActiveCfg = Package Only|x86
+		{D92D0E9F-E8A7-49EF-8F87-8265E7C646DD}.Package Only|x86.Build.0 = Package Only|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

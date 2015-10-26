@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Traits>
+		<Row>
+			<Type>TRAIT_WALLS_OF_SPARTA</Type>
+			<Description>TXT_KEY_TRAIT_WALLS_OF_SPARTA</Description>
+			<ShortDescription>TXT_KEY_TRAIT_WALLS_OF_SPARTA_SHORT</ShortDescription>
+		</Row>
+	</Traits>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_TRAIT_WALLS_OF_SPARTA">
+			<Text>Following your first Great General, receive an infantry unit every time your capital grows. Capturing cities may grant a free [ICON_CITIZEN] Citizen in your capital.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_WALLS_OF_SPARTA_SHORT">
+			<Text>Walls of Sparta</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

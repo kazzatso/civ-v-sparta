@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Deploy" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <ProjectGuid>{d92d0e9f-e8a7-49ef-8f87-8265e7c646dd}</ProjectGuid>
+    <Name>Sparta</Name>
+    <Guid>92a805c9-34f6-420b-a0b5-1fc3744bc3e5</Guid>
+    <ModVersion>1</ModVersion>
+    <Stability>Alpha</Stability>
+    <Teaser>The Spartan civilization, as led by Leonidas</Teaser>
+    <Description>The Spartan Civ that More Civs is working on, but faster since I don't want to wait for their bullshit.</Description>
+    <Authors>Anders</Authors>
+    <SpecialThanks>
+    </SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>false</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <SupportsMac>true</SupportsMac>
+    <AssemblyName>Civ5Mod1</AssemblyName>
+    <RootNamespace>Civ5Mod1</RootNamespace>
+    <ModReferences>
+      <Association>
+        <Type>Mod</Type>
+        <Name>Yet (not) Another Earth Maps Pack</Name>
+        <Id>36e88483-48fe-4545-b85f-bafc50dde315</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+    </ModReferences>
+    <ReloadAudioSystem>true</ReloadAudioSystem>
+    <ModActions>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Buildings/Buildings.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Units/Units.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Leader/DiplomacyResponses.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Leader/Leader.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Leader/Leonidas_Scene.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Leader/Trait.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Civilization/Civilization.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Art/SpartaAtlases.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>SpartaMusic/Music.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>SQL/YnAEMP.sql</FileName>
+      </Action>
+    </ModActions>
+    <ReloadUnitSystem>true</ReloadUnitSystem>
+    <ReloadStrategicViewSystem>true</ReloadStrategicViewSystem>
+    <ModProperties />
+    <ModContent>
+      <Content>
+        <Type>InGameUIAddin</Type>
+        <Name>SpartaTrait</Name>
+        <Description />
+        <FileName>Lua/SpartaTraits.lua</FileName>
+      </Content>
+    </ModContent>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Package Only' ">
+    <PackageMod>true</PackageMod>
+    <DeployMod>false</DeployMod>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Deploy Only' ">
+    <PackageMod>false</PackageMod>
+    <DeployMod>true</DeployMod>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Art\EliteHopliteflag.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Leonidas_Scene.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\SpartaAtlas128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\SpartaAtlas16.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\SpartaAtlas24.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\SpartaAtlas256.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\SpartaAtlas32.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\SpartaAtlas45.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\SpartaAtlas48.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\SpartaAtlas64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\SpartaAtlas80.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\SpartaAtlases.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\SpartaDom.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\SpartaIconAlpha128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\SpartaIconAlpha16.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\SpartaIconAlpha24.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\SpartaIconAlpha32.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\SpartaIconAlpha48.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\SpartaIconAlpha64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\SpartaIconAlpha80.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\SpartaMap.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Buildings\Buildings.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Civilization\Civilization.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Leader\DiplomacyResponses.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Leader\Leader.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Leader\Leonidas_Scene.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Leader\Trait.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Lua\SpartaTraits.lua">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="SpartaMusic\Music.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="SpartaMusic\Sparta Peace.mp3">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="SpartaMusic\Sparta War.mp3">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="SQL\YnAEMP.sql">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Units.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Buildings" />
+    <Folder Include="Civilization" />
+    <Folder Include="Lua" />
+    <Folder Include="Leader" />
+    <Folder Include="Art" />
+    <Folder Include="SQL" />
+    <Folder Include="SpartaMusic" />
+    <Folder Include="Units" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Firaxis\ModBuddy\Civ5Mod.targets" />
+</Project>
